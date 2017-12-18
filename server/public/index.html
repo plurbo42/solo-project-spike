@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+      <script src="vendors/angular.js"></script>
+      <script src="vendors/jquery.min.js"></script>
+      <script src="vendors/angular-route.js"></script>
+      <script src="vendors/socket.io.js"></script>
+      <script src="scripts/client.js"></script>
+    <title>Socket.IO Dice Roller</title>
+  </head>
+  <body ng-app="RollerApp" ng-controller="RollerController as vm">
+    <button ng-click="vm.roll()">Roll!</button>
+    <ul id="results"></ul>
+  </body>
+</html>
+    
